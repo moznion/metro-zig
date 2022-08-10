@@ -1,4 +1,4 @@
-# MetroHash
+# MetroHash for Zig [![test](https://github.com/moznion/metro-zig/actions/workflows/test.yaml/badge.svg)](https://github.com/moznion/metro-zig/actions/workflows/test.yaml)
 
 [MetroHash](http://www.jandrewrogers.com/2015/05/27/metrohash/) library for [Zig](https://ziglang.org/).
 
@@ -37,7 +37,7 @@ var data = [_]u8{
     54, 55, 56, 57, 48, 49, 50,
 };
 const seed: u64 = 1;
-const hash: u64 = hash64(data[0..], seed);
+const hash: u128 = hash128(data[0..], seed);
 ```
 
 ## How to build and test
