@@ -1,0 +1,6 @@
+[submodule "src/byteorder-util-zig"]
+	path = src/byteorder-util-zig
+	url = https://github.com/moznion/byteorder-util-zig
+[submodule "src/bits-util-zig"]
+	path = src/bits-util-zig
+	url = https://github.com/moznion/bits-util-zig
