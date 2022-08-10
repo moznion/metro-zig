@@ -51,6 +51,10 @@ $ zig build test
 
 This implementation is based on [jandrewrogers/MetroHash](https://github.com/jandrewrogers/MetroHash) and [dgryski/go-metro](https://github.com/dgryski/go-metro).
 
+## License
+
+MIT
+
 ## Author
 
 moznion (<moznion@mail.moznion.net>)
