@@ -12,6 +12,8 @@ jobs:
       uses: goto-bus-stop/setup-zig@v1
       with:
         version: master
+    - name: init dependencies
+      run: "git submodule init && git submodule update"
     - name: Test
       run: zig build test
 
