@@ -1,5 +1,4 @@
 const std = @import("std");
-const testing = std.testing;
 const bits = @import("bits-util-zig/src/main.zig");
 const byteorder = @import("byteorder-util-zig/src/main.zig");
 
